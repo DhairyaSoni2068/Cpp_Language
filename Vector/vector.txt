@@ -1,0 +1,22 @@
+for vector
+
+header file <vector>
+vector<data type> vector name;
+
+v.size() give size of vector
+v.capacity give capacity of vector
+
+add element by 
+v.push_back(element);
+
+delete last element by,
+v.pop_back();
+
+for insert any element by
+v.insert(index of element(v.begin()+2),element);
+
+for erase any element by
+v.erase(v.end()-2);
+
+v.begin ->index 0
+v.end ->last index

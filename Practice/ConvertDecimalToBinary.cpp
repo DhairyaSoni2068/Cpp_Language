@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cout<<"Enter The Number : "<<endl;
+    cin>>n;
+
+    int ans=0;
+    int power=1;
+    while(n>0){
+        int paritynumber=n%2;
+        ans+=paritynumber*power;
+        power*=10;
+        n/=2;
+    }
+    cout<<ans<<endl;
+    return 0;
+}
